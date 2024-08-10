@@ -1,0 +1,12 @@
+export { default as Loader } from './Loader';
+export { default as Footer } from './Footer';
+export { default as Navbar } from './Navbar';
+export { default as Services } from './Services';
+export { default as Voting } from './Voting';
+export { default as Welcome } from './Welcome';
+export { default as SignIn } from './SignIn';
+export { default as VerifyUser } from './VerifyUser';
+export { default as SignUp } from './SignUp';
+export { default as HowToVote } from './HowToVote';
+export { default as GetVotes } from './GetVotes';
+export { default as VoteTally } from './VoteTally';

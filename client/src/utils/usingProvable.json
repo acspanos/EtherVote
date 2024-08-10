@@ -1,0 +1,11 @@
+{
+    "_format": "hh-sol-artifact-1",
+    "contractName": "usingProvable",
+    "sourceName": "contracts/ProvableAPI.sol",
+    "abi": [],
+    "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b1b9654c3881811eaf78c9c2f9a8990402484234f776d85e7f5dfc3028aaaa8264736f6c63430008000033",
+    "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b1b9654c3881811eaf78c9c2f9a8990402484234f776d85e7f5dfc3028aaaa8264736f6c63430008000033",
+    "linkReferences": {},
+    "deployedLinkReferences": {}
+  }
+  
