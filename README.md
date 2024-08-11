@@ -13,7 +13,7 @@ Change the Owner Address:
   1. Run the deployment script using the following command:
     > npx hardhat run scripts/deploy.js --network sepolia
   2. Copy the contract address from the output (e.g., 0x2a5D019F75D3f65d3D7167cd54bcd6d7eD423456).
-     Paste it into the file /client/components/utils/constants.js, replacing the value of the contractAddress variable.
+     Paste it into the file /client/src/components/utils/constants.js, replacing the value of the contractAddress variable.
   3. Copy the contract ABI from /smart_contract/artifacts/contracts/Voting.sol/Voting.json.
      Paste it into /client/components/utils/Voting.json.
 
@@ -22,3 +22,6 @@ Change the Owner Address:
   2. npm install
   3. npm run dev 
 
+**Extra**
+  1. Set your public RSA key on 'publicKeyPem' variable in 'client/src/context/VotingContext.js'.
+  2. The vote tallying process is not added. Functions only added for testing purposes.
