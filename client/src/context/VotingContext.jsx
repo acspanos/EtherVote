@@ -69,33 +69,7 @@ export const VotingProvider = ({ children }) => {
         let candC=0;
         const privateKeyPem=  voteTallyData.privatekey;
         console.log(privateKeyPem);
-        // const privateKeyPem=` -----BEGIN RSA PRIVATE KEY-----
-        //     MIIEowIBAAKCAQEAoxjIgxLBvjl4t+UF4se6DdVYwTgBQwWxjMubQgeU2J+moh49
-        //     TI5XdVErncTM5mMtSBHmQsEpw/6YbjJla2TYP4nxx3JJn3Ja/WHGmC4RgsmThbnL
-        //     jd81iMcsymY8AEkAkkefZ6L7kBotcTHKtUleOxQli3AZ708Q+XdBVj5+UwjSgc60
-        //     DQxy2+2bLl85tFVfgpH6jxYovcv36gIWtc+a6VN6L0oI10cvM4DimWt5NG9vbtU4
-        //     51BT6MW4nT7GBrmoZPBb1S7oZYSH1PY1yQ2Aa3Y/dyP0qWeHUbY9dMCqTBUVxuiV
-        //     vtAq5XF4VcIALpvb7rEzAVD9ffYdw5oLEOdJbQIDAQABAoIBAQCJMBGJXz+kmIcY
-        //     eAZpaYLwm+KaNFerXqCoQ6OG+QWU6UWq3DDHsnuSbQJ5JM8Ng6LVGmlLAVv2RrNF
-        //     DhMNMLhNSeUb1OBkxDYRKCt6WlXUY2Y5d7zmyzgmoxLj9PbHbqCSariE3i0oWzya
-        //     GD3gG6StoRaroVHPX/xxOoS03MA5argzFIqfCGiTTxRX92L/HMyV0dCVOYpl5vMS
-        //     5/qj7qJpMYcCRj8wsrXUDKFOsltrH3g4dFt1ur18WdS6lMl2tDiXIwTRjFpiWaMb
-        //     XBOJIzNPLqrDi9x7d5jX79FsX3VR1pyXTWahPdGAMyb7r0WBQI4Xc3EycGLpFrcn
-        //     FnvADL2BAoGBAO+vDebQ9OC0YTBpRFgz2sTnpe1U/8SmzuoFAtV7qM3nWAqW4bc8
-        //     gMWINFCpNwzi4Q2E4XpgCkeAb+7pr+naneCiPIWCkjyCGtKYtqJTNvDWCSzXr1XJ
-        //     u8sKENifepASpApAEib+I770rezMohetqg6wdV5rK/3Wzw6EVZy3dUk9AoGBAK4z
-        //     DhZETDdPy1DVYOWwOB+Hi7w0WNZ2Z70lnebsEoFeW+qyarVODIPGDh8uY2QcThYD
-        //     o7iJkRj/LCCFn23mhDJ7Avz3dxpAjQ9U8GvOFAaKTKPT2r/PuSoJP1oFbVOIkJWe
-        //     ShW1FuvqzExIIJlqX/ewOadwYdicAkm5YDnAAiPxAoGAFrB/pGYLiGoK+UY9zgu6
-        //     ngE/1+PAAqG33Ld0uTjnlfZcg0QdQfdcSVbHfQtHxtSDcYAuyCLnVjV2YyuEF6M2
-        //     Ztl02T6vEUNPvrfuMhemj83zOGeClaBvQp1FUvxl4dWh6cZ+8WoFgEIxZMVKYutx
-        //     ucpCkhmbJIB9QWaNpDRJyhECgYBaVU1rzJT9ZdqYG165HU2tQ/v5Z+fdpt8a3ePp
-        //     OOhLv+PIbCcbx9KDjvQJxWNzKZ5wmgiPjH76yHBYmRJYyl4pU1L0XVuc+HZtye02
-        //     6lHGJnehyR25s/1gSBVbGE9eLwZTIBdo9FRjmInC0PBeviPv7KmpI4UJ77TcCE5X
-        //     BDPX8QKBgBVVQ+hXpoOU984H7k1OLL6nP/CB1SFySwaF/rU2hsx4Ln6e4BCWIJqk
-        //     cb0W8Ar3DSFvF7BI1nkNOKmhRQK8ooyRIGtoNEjg2XNoZyiOQzwbJbTOLtjloXwE
-        //     5POhgHR8/m1411oHvrO91YitDgg4J94OuXsrMQsM9clbEXRgNvrv
-        //     -----END RSA PRIVATE KEY-----`;
+        // const privateKeyPem=`Add your private RSA key`;
         
         const importedPrivateKey = forge.pki.privateKeyFromPem(privateKeyPem);
         const encryptData = await votingContract.returnEncryptedVotes();
