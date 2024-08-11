@@ -123,15 +123,7 @@ export const VotingProvider = ({ children }) => {
         try {
             if(!ethereum) return alert("Please install Metamask!");
 
-            const publicKeyPem=` -----BEGIN PUBLIC KEY-----
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoxjIgxLBvjl4t+UF4se6
-            DdVYwTgBQwWxjMubQgeU2J+moh49TI5XdVErncTM5mMtSBHmQsEpw/6YbjJla2TY
-            P4nxx3JJn3Ja/WHGmC4RgsmThbnLjd81iMcsymY8AEkAkkefZ6L7kBotcTHKtUle
-            OxQli3AZ708Q+XdBVj5+UwjSgc60DQxy2+2bLl85tFVfgpH6jxYovcv36gIWtc+a
-            6VN6L0oI10cvM4DimWt5NG9vbtU451BT6MW4nT7GBrmoZPBb1S7oZYSH1PY1yQ2A
-            a3Y/dyP0qWeHUbY9dMCqTBUVxuiVvtAq5XF4VcIALpvb7rEzAVD9ffYdw5oLEOdJ
-            bQIDAQAB
-            -----END PUBLIC KEY-----`;
+            const publicKeyPem=` add your public key`;
 
             const importedPublicKey = forge.pki.publicKeyFromPem(publicKeyPem);
         
